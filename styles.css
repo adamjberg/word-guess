@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+}
+
+.board {
+    display: flex;
+    margin: 16px auto;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.tile {
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.keyboard {
+    width: 100%;
+    margin: 16px auto;
+    max-width: 800px;
+}
+
+.key-row {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.spacer {
+    flex: 0.5;
+}
+
+.key {
+    flex: 1;
+    margin: 0 8px;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.absent {
+    background-color: #424242;
+}
+
+.correct {
+    background-color: green;
+}
+
+.present {
+    background-color: yellow;
+}
